@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Model weights and data (large files)
+models/
+*.weights.h5
+*.h5
+*.pkl
+
+# Data files (large, available from upstream repos)
+data/CCF-curated/*.tsv
+data/CCF-curated/*.tsv.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+/tmp/
+*.tmp
